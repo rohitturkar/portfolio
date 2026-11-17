@@ -94,7 +94,7 @@ function Home() {
 
         <div className="portrait-wrap">
           <div className="portrait-label portrait-label--top">DESIGN-MINDED<br />DEVELOPER</div>
-          <div className="portrait-tag portrait-tag--engineer"><strong>Software Engineer</strong></div>
+          <div className="portrait-tag portrait-tag--engineer"><strong>React · Next.js</strong></div>
           <div className="portrait-frame">
             <img src={portrait} alt="Rohit Turkar, frontend software engineer" />
           </div>
