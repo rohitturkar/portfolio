@@ -1,21 +1,29 @@
-import React from "react";
+import { useState } from "react";
 
-const Navbar = () => {
+const links = [
+  ["Projects", "projects"],
+  ["About", "about"],
+  ["Experience", "experience"],
+  ["Blog", "blog"],
+];
+
+function Navbar({ isBlogPage = false }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <div className=" flex justify-between items-center p-4 w-full bg-[#333] shadow-2xl rounded-lg">
-      <div className="text-2xl font-bold shadow-2xl text-orange-50 ">Rohit</div>
-
-      <ul className="flex justify-between items-center md:gap-6 gap-4">
-        <li className="md:text-xl text-lg  shadow-xl cursor-pointer hover:text-orange-100 hover:border-b hover:border-orange-300 hover:pb-1">
-          <a href="#experience">experience</a>
-        </li>
-      
-        <li className="md:text-xl text-lg  shadow-xl cursor-pointer hover:text-orange-100 hover:border-b hover:border-orange-300 hover:pb-1">
-          <a href="https://rohitturkar02.hashnode.dev/" target="_blank">blogs</a>
-        </li>
-      </ul>
-    </div>
+    <header className="nav-wrap">
+      <nav className="site-nav" aria-label="Main navigation">
+        <a className="brand-mark" href={isBlogPage ? "/" : "#home"} aria-label="Rohit Turkar, home">Rohit Turkar<span>.</span></a>
+        <button className="menu-toggle" type="button" aria-expanded={menuOpen} aria-label={menuOpen ? "Close menu" : "Open menu"} onClick={() => setMenuOpen(!menuOpen)}>
+          <span /><span />
+        </button>
+        <div className={`nav-links ${menuOpen ? "nav-links--open" : ""}`}>
+          {links.map(([label, id]) => <a key={id} href={id === "blog" ? "/blog" : isBlogPage ? `/#${id}` : `#${id}`} aria-current={id === "blog" && isBlogPage ? "page" : undefined} onClick={() => setMenuOpen(false)}>{label}</a>)}
+          <a className="nav-contact" href={isBlogPage ? "/#contact" : "#contact"} onClick={() => setMenuOpen(false)}>Say hello <span>↗</span></a>
+        </div>
+      </nav>
+    </header>
   );
-};
+}
 
 export default Navbar;
