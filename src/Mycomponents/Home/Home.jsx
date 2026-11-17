@@ -95,6 +95,8 @@ function Home() {
         <div className="portrait-wrap">
           <div className="portrait-label portrait-label--top">DESIGN-MINDED<br />DEVELOPER</div>
           <div className="portrait-tag portrait-tag--engineer"><strong>React · Next.js</strong></div>
+          <div className="portrait-tag portrait-tag--languages"><strong>TypeScript · JavaScript</strong></div>
+          <div className="portrait-tag portrait-tag--backend"><strong>Node.js · MySQL</strong></div>
           <div className="portrait-frame">
             <img src={portrait} alt="Rohit Turkar, frontend software engineer" />
           </div>
@@ -151,14 +153,13 @@ function Home() {
               </article>
             ))}
           </div>
-          <div className="project-footnote">Selected full-stack projects focused on useful workflows, clear dashboards, and reliable data.</div>
         </div>
       </section>
 
       <section className="experience-section" id="experience">
         <div className="section-wrap experience-inner">
           <div className="experience-heading">
-            <div><div className="section-kicker">03 / EXPERIENCE</div><h2>From ideas to <span className="serif-accent">working software.</span></h2></div>
+            <div><div className="section-kicker">03 / EXPERIENCE</div><h2>Work <span className="serif-accent">experience.</span></h2></div>
             <p>Product engineering across high-traffic platforms, interactive tools, and full-stack applications.</p>
           </div>
           <div className="experience-list">
@@ -222,7 +223,7 @@ function Home() {
       </section>
 
       <footer className="footer section-wrap" id="contact">
-        <div className="section-kicker">06 / YOUR TURN</div>
+          <div className="section-kicker">06 / GET IN TOUCH</div>
         <div className="footer-main"><h2>Have something<br />good in <span className="serif-accent">mind?</span></h2><div className="footer-contacts"><a className="footer-email" href="mailto:rohittur2002@gmail.com">Let’s make it real <FaArrowRight aria-hidden="true" /></a><a className="footer-contact-detail" href="mailto:rohittur2002@gmail.com"><CiMail aria-hidden="true" /> rohittur2002@gmail.com</a><a className="footer-contact-detail" href="tel:+919527637206"><FaPhone aria-hidden="true" /> +91 95276 37206</a></div></div>
         <div className="footer-bottom"><span>© {new Date().getFullYear()} ROHIT TURKAR</span><span>NAGPUR, INDIA · SOFTWARE ENGINEER / FULL-STACK</span><div><a href="https://github.com/rohitturkar" target="_blank" rel="noreferrer">GITHUB</a><a href="https://www.linkedin.com/in/rohit-turkar" target="_blank" rel="noreferrer">LINKEDIN</a><a href="https://rohitturkar.vercel.app" target="_blank" rel="noreferrer">WEBSITE</a></div></div>
       </footer>
