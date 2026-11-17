@@ -122,7 +122,7 @@ function Home() {
             <p>I’m a full-stack developer experienced in building scalable, high-performance web applications across frontend, backend, and infrastructure. My work spans system design, end-to-end architecture, API integration, and database management.</p>
             <p>I focus on clean, secure, optimized code and reliable, production-ready solutions. I work with TypeScript, React, and Node.js, and enjoy collaborating across the whole product stack.</p>
             <p>When I’m away from my editor, I’m usually reading, enjoying a cup of chai, or following a question about space and physics down a rabbit hole.</p>
-            <a className="text-link" href="https://drive.google.com/file/d/1nNf9O6hZgf7l67RKtql43jeXBvO3w5I9/view" target="_blank" rel="noreferrer">A little more on my resume <FaArrowRight aria-hidden="true" /></a>
+            <a className="text-link" href="/Rohit_Turkar.pdf" target="_blank" rel="noreferrer">A little more on my resume <FaArrowRight aria-hidden="true" /></a>
           </div>
         </div>
       </section>
