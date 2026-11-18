@@ -53,7 +53,7 @@ button { font: inherit; }
 .hero-role-badge { display: inline-flex; align-items: center; gap: 7px; margin-left: 2px; padding: 8px 12px; border: 1px solid rgba(79,91,130,.24); border-radius: 30px; color: #39445d; background: linear-gradient(135deg, #dce8ef, #e8e0ef); font-size: 10px; font-weight: 600; white-space: nowrap; }
 .tiny-spark { color: var(--orange); font-size: 14px; margin-left: 4px; }
 .portrait-wrap { width: min(100%, 420px); justify-self: center; position: relative; padding: 20px 16px 40px 20px; }
-.portrait-frame { aspect-ratio: .8; width: 100%; overflow: hidden; position: relative; background: radial-gradient(ellipse at 50% 36%, #e1eae1 0%, #cbd9d0 80%); border-radius: 190px 190px 5px 5px; border: 1px solid var(--ink); box-shadow: 14px 14px 0 var(--orange); }
+.portrait-frame { aspect-ratio: .8; width: 100%; overflow: hidden; position: relative; background: radial-gradient(ellipse at 50% 36%, #e1eae1 0%, #cbd9d0 80%); border-radius: 25px; border: 1px solid var(--ink); box-shadow: 14px 14px 0 var(--orange); }
 .portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 39%; transform: scale(1.06); filter: saturate(.88); display: block; }
 .portrait-frame::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 60%, rgba(30, 38, 34, .14)); pointer-events: none; }
 .portrait-label { position: absolute; top: 9px; right: 0; z-index: 2; line-height: 1.6; background: #d5e5d5; border: 0; padding: 12px 16px; box-shadow: 4px 5px 0 rgba(32, 35, 33, .18); transform: rotate(4deg); }
