@@ -108,10 +108,10 @@ function Home() {
       <section className="ticker" aria-label="Career highlights">
         <div className="ticker-track">
           <div className="ticker-inner">
-            <span>92% FRONTEND PERFORMANCE IMPROVEMENT</span><b>✳</b><span>LIGHTHOUSE SCORE IMPROVED TO 90</span><b>✳</b><span>LCP · CORE WEB VITALS OPTIMIZATION</span><b>✳</b><span>AR / VR · REACT · NEXT.JS</span><b>✳</b>
+            <span>92% FRONTEND PERFORMANCE IMPROVEMENT</span><span>LIGHTHOUSE SCORE IMPROVED TO 90</span><span>LCP · CORE WEB VITALS OPTIMIZATION</span><span>AR / VR · REACT · NEXT.JS</span>
           </div>
           <div className="ticker-inner" aria-hidden="true">
-            <span>92% FRONTEND PERFORMANCE IMPROVEMENT</span><b>✳</b><span>LIGHTHOUSE SCORE IMPROVED TO 90</span><b>✳</b><span>LCP · CORE WEB VITALS OPTIMIZATION</span><b>✳</b><span>AR / VR · REACT · NEXT.JS</span><b>✳</b>
+            <span>92% FRONTEND PERFORMANCE IMPROVEMENT</span><span>LIGHTHOUSE SCORE IMPROVED TO 90</span><span>LCP · CORE WEB VITALS OPTIMIZATION</span><span>AR / VR · REACT · NEXT.JS</span>
           </div>
         </div>
       </section>

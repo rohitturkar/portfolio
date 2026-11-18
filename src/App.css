@@ -70,7 +70,6 @@ button { font: inherit; }
 .ticker-track { display: flex; width: max-content; animation: ticker-scroll 32s linear infinite; will-change: transform; }
 .ticker:hover .ticker-track { animation-play-state: paused; }
 .ticker-inner { flex: 0 0 max(100vw, 1000px); height: 57px; display: flex; align-items: center; justify-content: space-around; gap: 35px; font-family: var(--mono); font-size: 10px; letter-spacing: .1em; }
-.ticker b { color: var(--orange); font-size: 18px; }
 @keyframes ticker-scroll { to { transform: translateX(-50%); } }
 .about-section { padding-top: 125px; padding-bottom: 130px; }
 .section-kicker { color: #777c76; margin-bottom: 25px; }
