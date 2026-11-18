@@ -88,7 +88,7 @@ function Home() {
             <a href="https://www.linkedin.com/in/rohit-turkar" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
             <a href="mailto:rohittur2002@gmail.com" aria-label="Email"><CiMail /></a>
             <a href="tel:+919527637206" aria-label="Call Rohit"><FaPhone /></a>
-            <span className="hero-role-badge">Software Engineer @ Trueigtech <span className="tiny-spark">✳</span></span>
+            <span className="hero-role-badge">Software Engineer @ Trueigtech</span>
           </div>
         </div>
 
@@ -177,7 +177,7 @@ function Home() {
                   <div className="award-copy"><div className="award-kicker"><span>✦</span> QUARTERLY RECOGNITION</div><h4>Employee<br />of the Quarter</h4><p>Recognized at {job.company}.</p></div>
                   <div className="award-gallery">
                     <figure className="award-photo"><a className="award-photo-image-link" href={quarterCertificate} target="_blank" rel="noreferrer" aria-label="Open Rohit’s Trueigtech certificate of appreciation"><img className="award-photo-image" src={quarterCertificate} alt="Trueigtech certificate of appreciation presented to Rohit Turkar" /></a><figcaption>CERTIFICATE OF APPRECIATION</figcaption></figure>
-                    <figure className="award-photo"><div className="award-photo-placeholder" role="img" aria-label="Placeholder for a second award photo"><span className="award-photo-icon">✳</span><span>AWARD PHOTO 02</span><small>Photo slot</small></div><figcaption>AWARD MOMENT</figcaption></figure>
+                    <figure className="award-photo"><div className="award-photo-placeholder" role="img" aria-label="Placeholder for a second award photo"><span>AWARD PHOTO 02</span><small>Photo slot</small></div><figcaption>AWARD MOMENT</figcaption></figure>
                   </div>
                 </aside>}
               </div>
@@ -212,7 +212,6 @@ function Home() {
 
       <section className="writing-section section-wrap" id="writing">
         <div className="writing-card">
-          <div className="writing-orbit" aria-hidden="true">✳</div>
           <div className="section-kicker">05 / NOTES FROM THE PROCESS</div>
           <div className="writing-grid">
             <div><h2>Good ideas deserve <span className="serif-accent">to be shared.</span></h2><p>Occasional notes on frontend craft, building for the web, and the little lessons hiding inside big projects.</p></div>
